@@ -3,7 +3,7 @@ services:
   postgres-db:
     image: postgres:15
     container_name: db-postgres
-    environment:
+    env_file:
       - .env
     volumes:
       - data_pg:/var/lib/postgresql/data
@@ -15,7 +15,7 @@ services:
   mysql-db:
     image: mysql:8.0
     container_name: db-mysql
-    environment:
+    env_file:
       - .env
     ports:
       - 3307:3306/tcp
