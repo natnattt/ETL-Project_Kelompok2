@@ -15,10 +15,10 @@ The setup is orchestrated using Docker Compose, ensuring seamless deployment and
 - Python version: 3.9
 
 ## Dataset Overview:
-The project includes a synthetic dummy dataset for demonstration purposes. The dataset used in this project is a synthetic dataset generated for testing purposes. This dataset serves as a sample for testing purposes and is conveniently included within the repository. For more extensive testing scenarios, users are encouraged to explore publicly available datasets. For this project, we are using a sample dataset obtained from Kaggle. The dataset contains historical sales data for a fictional retail company. The dataset includes the following tables:
-- customers: Information about the company's customers, including customer ID, name, email, and address.
-- products: Details about the products sold by the company, including product ID, name, description, and price.
-- orders: Records of sales transactions, including order ID, customer ID, product ID, quantity, and total amount.
+The project includes a synthetic dummy dataset for demonstration purposes. The dataset used in this project is a synthetic dataset generated for testing purposes. This dataset serves as a sample for testing purposes and is conveniently included within the repository. For more extensive testing scenarios, users are encouraged to explore publicly available datasets. For this project, we are using a sample dataset obtained from create any kind of data dummy, Kaggle, and manual. The dataset contains historical sales data for a fictional retail company. The dataset includes the following tables:
+- fitness: The dataset includes physical attributes such as height (h), weight (w), body mass index (BMI), gender, age, BMI case, and exercise recommendation plan. (Kaggle)
+- pet: Includes about pet_id, name, pet_type, birth_date, and owner. (Data dummy)
+- orders: Records of student_id and name. (Manual)
 
 ## Usage Instructions:
 1. Clone this repository to your local environment.
